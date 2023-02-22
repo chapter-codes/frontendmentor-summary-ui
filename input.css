@@ -1,0 +1,35 @@
+@layer base{
+	@font-face {
+	font-family: 'HankenGrotesk';
+	src:url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf') 
+	format('opentype');
+	}
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a{
+	text-decoration:underline;
+	color:blue
+}
+.left{
+	background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+.circle{
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+@media(min-width: 768px){
+	.left{
+		border: none;
+	}
+	section>div{
+		box-shadow:0
+	}
+
+}

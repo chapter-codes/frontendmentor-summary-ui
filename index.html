@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Frontend Mentor | Results summary component</title>
+	
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="md:h-screen">
+		<section class="container flex items-center max-w-3xl mx-auto md:h-5/6 ">
+			<div class="flex flex-col justify-center w-full  md:my-8 md:flex-row md:rounded-2xl md:shadow-lg  md:shadow-lightLavender">
+				<div class="left  flex flex-col items-center w-full  text-gray-200 py-8  md:rounded-2xl">
+					<p class="p-4 text-xl text-bold text-paleBlue"  >Your Result</p>
+					<div class="circle flex flex-col justify-center text-center  bg-bgVioletBlueCircle  h-48 w-48  rounded-full mb-4 ">
+						<h1 class="text-8xl text-white mx-2 font-bold ">76</h1>
+						<p class='py-2'>of 100</p>
+					</div>
+					<h3 class="pt-8 pb-4 font-bold text-2xl">Great</h3>
+					<p class="px-20 text-center">You scored higher than 65% of the people who have taken these tests.</p>
+				</div>
+				<div class="right flex flex-col justify-center w-full mx-auto max-w-sm  mt-8 px-4 ">
+					<h2 class="pb-6 text-lg font-bold">Summary</h2>
+
+					<div class='flex justify-between items-center px-4 h-12   w-full rounded-xl  bg-bgLightRed mb-4 '>
+						<div class="flex items-center text-lightRed">
+							<img class='h-full, w-auto ' src='./assets/images/icon-reaction.svg'/>
+						<p class="parameter font-bold pl-2 ">Reaction</p>
+						</div>
+						<p class="score font-bold">80  <span class="text-slate-400"> /100</span></p>
+					</div>
+					<div class='flex justify-between items-center px-4 h-12   w-full rounded-xl  bg-bgOrangeYellow mb-4 '>
+						<div class="flex items-center text-orangeYellow">
+							<img class='h-full, w-auto ' src='./assets/images/icon-memory.svg'/>
+						<p class="parameter font-bold pl-2 ">Memory</p>
+						</div>
+						<p class="score font-bold">92  <span class="text-slate-400"> /100</span></p>
+					</div>
+					<div class='flex justify-between items-center px-4 h-12   w-full rounded-xl  bg-bgGreenTeal mb-4 '>
+						<div class="flex items-center text-greenTeal">
+							<img class='h-full, w-auto ' src='./assets/images/icon-verbal.svg'/>
+						<p class="parameter font-bold pl-2 ">Virtual</p>
+						</div>
+						<p class="score font-bold">61  <span class="text-slate-400"> /100</span></p>
+					</div>
+					<div class='flex justify-between items-center px-4 h-12   w-full rounded-xl  bg-bgCobaltBlue mb-4 '>
+						<div class="flex items-center text-cobaltBlue">
+							<img class='h-full, w-auto ' src='./assets/images/icon-visual.svg'/>
+						<p class="parameter font-bold pl-2 ">Visual</p>
+						</div>
+						<p class="score font-bold">72  <span class="text-slate-400"> /100</span></p>
+					</div>		
+
+					<button class="continue text-center text-white font-bold py-4 my-4 w-full bg-darkGrayBlue rounded-full hover:bg-bgLightRoyalBlue">Continue</button>		
+				</div>
+			</div>
+		</section>
+
+
+  <footer class=" flex items-end justify-center h-1/6 mt-8 md:my-auto">
+  	 <div class="attribution px-2 py-2 text-sm md:text-basek">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Churchill Nnanna</a>
+  </div>
+  </footer>
+ 
+	<script src='./loop.js'></script>
+</body>
+</html>
